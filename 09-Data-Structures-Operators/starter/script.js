@@ -28,15 +28,13 @@ const restaurant = {
 
     openingHours,
 }
-const question = newa([
+const question = new Map([
     ["question", "what is the best programming language in the world"],
     [1, "C"],
     [2, "pyton"],
     [3, "javaScript"],
-    ["answer", 3][(true, "nice good answer")],
+    ["answer", 3],
+    [(true, "nice good answer")],
     [false, "false answer💠"],
 ])
 console.log(question)
-    // for (const [key, value] of question) {
-    //     if (typeof key === "number") console.log(`answer ${key}`)
-    // }
