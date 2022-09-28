@@ -33,7 +33,7 @@ const question = new Map([
     [1, "C"],
     [2, "pyton"],
     [3, "javaScript"],
-    ["answer", 3],
+    ["correct", 3],
     [true, "nice good answer"],
     [false, "false answer💠"],
 ])
@@ -44,10 +44,5 @@ for (const [key, value] of question) {
     if (typeof key === "number") console.log(`${key} the answer is : ${value}`)
 }
 let answer = Number(prompt("your answer?"))
-if ((answer = 3)) {
-    answer = question.get(true)
-} else {
-    answer = question.get(false)
-}
 console.log(answer)
-const log = console.error(hello)
+console.log(question.get(question.get("correct") === answer))
