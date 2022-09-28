@@ -50,4 +50,4 @@ if ((answer = 3)) {
     answer = question.get(false)
 }
 console.log(answer)
-const a = 1
+const log = console.error(hello)
