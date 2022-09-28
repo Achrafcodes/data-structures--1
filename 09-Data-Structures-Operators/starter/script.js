@@ -43,6 +43,13 @@ console.log(question.get("question"))
 for (const [key, value] of question) {
     if (typeof key === "number") console.log(`${key} the answer is : ${value}`)
 }
-let answer = Number(prompt("your answer?"))
+// let answer = Number(prompt("your answer?"))
+let answer = 3
 console.log(answer)
+
 console.log(question.get(question.get("correct") === answer))
+let arr = [...question]
+console.log(arr)
+
+console.log([...question.values()])
+console.log([...question.keys()])
