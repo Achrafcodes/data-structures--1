@@ -53,3 +53,50 @@ console.log(arr)
 
 console.log([...question.values()])
 console.log([...question.keys()])
+var ea, fa, ia, ja, na, pa, ya;
+_.ca = function(a) { return function() { return _.ba[a].apply(this, arguments) } };
+_.ba = [];
+ea = function(a) { var b = 0; return function() { return b < a.length ? { done: !1, value: a[b++] } : { done: !0 } } };
+fa = "function" == typeof Object.defineProperties ? Object.defineProperty : function(a, b, c) {
+        if (a == Array.prototype || a == Object.prototype) return a;
+        a[b] = c.value;
+        retu
+        StackExchange.ready(function() {
+
+            var ga3Settings = {
+                autoLink: ["stackoverflow.blog", "info.stackoverflowsolutions.com", "stackoverflowsolutions.com"],
+                sendTitles: true,
+                tracker: window.ga,
+                trackingCodes: [
+                    'UA-108242619-1'
+                ],
+                checkDimension: 'dimension42'
+            };
+
+            var customGA4Dimensions = {};
+
+
+            var ga4Settings = {
+                tracker: gtag,
+                trackingCodes: [
+                    'G-WCZ03SZFCQ'
+                ],
+                consentsToPerformanceCookies: "denied",
+                consentsToTargetingCookies: "denied",
+                eventParameters: customGA4Dimensions,
+                checkForAdBlock: true
+            };
+
+            StackExchange.ga.init({ GA3: ga3Settings, GA4: ga4Settings });
+
+
+            StackExchange.ga.setDimension('dimension2', '|visual-studio-code|word-wrap|');
+
+
+            StackExchange.ga.setDimension('dimension3', 'Questions/Show');
+
+
+            StackExchange.ga.setDimension('dimension7', "1664457438.1124147376");
+
+            StackExchange.ga.trackPageView();
+        });
