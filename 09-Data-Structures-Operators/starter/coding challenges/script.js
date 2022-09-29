@@ -27,3 +27,4 @@ const gameEvents = new Map([
     [80, "⚽️ GOAL"],
     [92, "🔶 Yellow card"],
 ])
+console.log("hello world")
