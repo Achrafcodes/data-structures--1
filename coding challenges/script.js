@@ -28,5 +28,8 @@ const gameEvents = new Map([
         [92, "🔶 Yellow card"],
     ])
     // 1. Create an array 'events' of the different game events that happened (no duplicates)
-let events = new Set(gameEvents.keys())
+let events = new Set(gameEvents.entries())
 console.log(events);
+gameEvents.delete(64)
+console.log(events)
+console.log(events.delete(64))
