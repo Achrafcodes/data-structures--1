@@ -37,16 +37,8 @@ const question = new Map([
     [true, "nice good answer"],
     [false, "false answer💠"],
 ])
-console.log(question.get(false))
-console.log(question.get(true))
-console.log(question.get("question"))
-for (const [key, value] of question) {
-    if (typeof key === "number") console.log(`${key} the answer is : ${value}`)
-}
-// let answer = Number(prompt("your answer?"))
-let answer = 3
-console.log(answer)
-
-console.log(question.get(question.get("correct") === answer))
-let arr = [...question]
-console.log(arr)
+let plane = 'Ar3r02r'
+console.log(typeof(plane[2]))
+console.log('hello'.length)
+console.log(plane.indexOf('3'))
+console.log(plane.lastIndexOf('r'))
