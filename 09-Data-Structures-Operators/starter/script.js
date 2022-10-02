@@ -37,8 +37,14 @@ const question = new Map([
     [true, "nice good answer"],
     [false, "false answer💠"],
 ])
-let plane = 'Ar3r02r'
-console.log(typeof(plane[2]))
-console.log('hello'.length)
-console.log(plane.indexOf('3'))
-console.log(plane.lastIndexOf('r'))
+const checkMiddleSeat = function(seat) {
+    const s = seat.slice(-1)
+    if (s === "b" || s === 'a') {
+        console.log('unlucky')
+    } else {
+        console.log("lucky")
+    }
+}
+checkMiddleSeat('12c')
+checkMiddleSeat('112b')
+checkMiddleSeat('123x')
