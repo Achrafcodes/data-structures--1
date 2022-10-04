@@ -1,5 +1,4 @@
 "use strict"
-
 // Data needed for a later exercise
 const openingHours = {
     thu: {
@@ -48,3 +47,9 @@ trueNamefunction('aChraf');
 trueNamefunction('bou3aza');
 trueNamefunction('Lma3ti');
 console.log('hello wold')
+
+let email = '              achraf@Email.com \n';
+
+let normalmail = email.toLowerCase().trim();
+console.log(email === normalmail)
+console.log(normalmail)
