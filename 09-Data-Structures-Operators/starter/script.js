@@ -37,7 +37,13 @@ const question = new Map([
     [true, "nice good answer"],
     [false, "false answer💠"],
 ])
-let FalseName = 'achRaf';
-let toLowerCase = FalseName.toLowerCase();
-let trueName = toLowerCase.toUpperCase(0)
-console.log(trueName)
+
+let trueNamefunction = function(passengerName) {
+    let toLowecase = passengerName.toLowerCase();
+    let truename = toLowecase[0].toUpperCase() + toLowecase.slice(1);
+    console.log(truename);
+}
+
+trueNamefunction('aChraf');
+trueNamefunction('bou3aza');
+trueNamefunction('Lma3ti');
