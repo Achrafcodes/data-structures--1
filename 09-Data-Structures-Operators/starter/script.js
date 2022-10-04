@@ -37,14 +37,7 @@ const question = new Map([
     [true, "nice good answer"],
     [false, "false answer💠"],
 ])
-const checkMiddleSeat = function(seat) {
-    const s = seat.slice(-1)
-    if (s === "b" || s === 'a') {
-        console.log('unlucky')
-    } else {
-        console.log("lucky")
-    }
-}
-checkMiddleSeat('12c')
-checkMiddleSeat('112b')
-checkMiddleSeat('123x')
+let FalseName = 'achRaf';
+let toLowerCase = FalseName.toLowerCase();
+let trueName = toLowerCase.toUpperCase(0)
+console.log(trueName)
