@@ -36,20 +36,14 @@ const question = new Map([
     [true, "nice good answer"],
     [false, "false answer💠"],
 ])
+let TicketPrice = '123,4dh'
+let PriceUs = TicketPrice.replace('dh', '$').replace(',', '.')
 
-let trueNamefunction = function(passengerName) {
-    let toLowecase = passengerName.toLowerCase();
-    let truename = toLowecase[0].toUpperCase() + toLowecase.slice(1);
-    console.log(truename);
-}
-
-trueNamefunction('aChraf');
-trueNamefunction('bou3aza');
-trueNamefunction('Lma3ti');
-console.log('hello wold')
-
-let email = '              achraf@Email.com \n';
-
-let normalmail = email.toLowerCase().trim();
-console.log(email === normalmail)
-console.log(normalmail)
+console.log(PriceUs);
+let achraf = 'hello its me , hello its you , hello  masarap'
+let achrafina = achraf.replace('hello', 'holooa')
+console.log(achrafina)
+let good = achraf.replaceAll('hello', 'hola')
+console.log(good)
+let test = 'achraf'
+console.log(test.includes("ach"))
