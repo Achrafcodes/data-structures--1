@@ -27,23 +27,6 @@ const restaurant = {
 
     openingHours,
 }
-const question = new Map([
-    ["question", "what is the best programming language in the world"],
-    [1, "C"],
-    [2, "pyton"],
-    [3, "javaScript"],
-    ["correct", 3],
-    [true, "nice good answer"],
-    [false, "false answer💠"],
-])
-let TicketPrice = '123,4dh'
-let PriceUs = TicketPrice.replace('dh', '$').replace(',', '.')
-
-console.log(PriceUs);
-let achraf = 'hello its me , hello its you , hello  masarap'
-let achrafina = achraf.replace('hello', 'holooa')
-console.log(achrafina)
-let good = achraf.replaceAll('hello', 'hola')
-console.log(good)
-let test = 'achraf'
-console.log(test.includes("ach"))
+let name = "achraf esoussy";
+let [fname, secnde] = "achraf essoussy".split(' ')
+console.log(fname, secnde)
