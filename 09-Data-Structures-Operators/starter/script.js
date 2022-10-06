@@ -27,6 +27,7 @@ const restaurant = {
 
     openingHours,
 }
-let name = "achraf esoussy";
+
 let [fname, secnde] = "achraf essoussy".split(' ')
-console.log(fname, secnde)
+let newName = ["Mr.", fname, secnde.toUpperCase()].join(' ')
+console.log(newName)
