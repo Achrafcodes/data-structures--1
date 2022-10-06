@@ -19,15 +19,21 @@ const flights =
 
 // Data needed for first part of the section
 const restaurant = {
-    name: "Classico Italiano",
-    location: "Via Angelo Tavanti 23, Firenze, Italy",
-    categories: ["Italian", "Pizzeria", "Vegetarian", "Organic"],
-    starterMenu: ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"],
-    mainMenu: ["Pizza", "Pasta", "Risotto"],
+        name: "Classico Italiano",
+        location: "Via Angelo Tavanti 23, Firenze, Italy",
+        categories: ["Italian", "Pizzeria", "Vegetarian", "Organic"],
+        starterMenu: ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"],
+        mainMenu: ["Pizza", "Pasta", "Risotto"],
 
-    openingHours,
+        openingHours,
+    }
+    //create a function thats take the name and make it capitalized 
+let newName = []
+let capitalize = function(name) {
+    let names = name.split(' ');
+    for (const itemes of names) {
+        newName.push(itemes[0].toUpperCase() + itemes.slice(1))
+    }
+    console.log(newName.join(" "))
 }
-
-let [fname, secnde] = "achraf essoussy".split(' ')
-let newName = ["Mr.", fname, secnde.toUpperCase()].join(' ')
-console.log(newName)
+capitalize('hello is me ahchraf essoussy')
