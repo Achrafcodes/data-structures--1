@@ -17,8 +17,10 @@ const openingHours = {
 const flights =
     "_Delayed_Departure;fao93766109;txl2133758440;11:25+_Arrival;bru0943384722;fao93766109;11:45+_Delayed_Arrival;hel7439299980;fao93766109;12:05+_Departure;fao93766109;lis2323639855;12:30"
 
-// Data needed for first part of the section
+array()
+    // Data needed for first part of the section
 const restaurant = {
+        data: 'hello',
         name: "Classico Italiano",
         location: "Via Angelo Tavanti 23, Firenze, Italy",
         categories: ["Italian", "Pizzeria", "Vegetarian", "Organic"],
@@ -28,7 +30,7 @@ const restaurant = {
         openingHours,
     }
     //create a function thats take the name and make it capitalized 
-let newName = []
+let newName = [];
 let capitalize = function(name) {
     let names = name.split(' ');
     for (const itemes of names) {
