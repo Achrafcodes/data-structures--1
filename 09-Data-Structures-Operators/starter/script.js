@@ -37,4 +37,3 @@ let capitalize = function(name) {
     console.log(newName.join(" "))
 }
 capitalize('hello is me ahchraf essoussy')
-log('ello ')
