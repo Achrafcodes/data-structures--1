@@ -12,3 +12,17 @@ Let's continue with our football betting app! This time, we have a map with a lo
 
 GOOD LUCK 😀
 */
+
+document.body.append(document.createElement("textarea"))
+document.body.append(document.createElement("button"));
+document.querySelector('button').addEventListener("click", function() {
+    const key = document.querySelector("textarea").value;
+    let value = key.split("\n");
+    console.log(value);
+    for (let n of value) {
+        let [first, second] = n.toLowerCase().trim().split("_")
+        console.log(first, second);
+        let uper = first.replace(n[0], n[0].toUpperCase)
+        console.log(uper)
+    }
+})
