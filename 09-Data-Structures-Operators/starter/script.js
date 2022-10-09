@@ -3,4 +3,7 @@ document.body.append(document.createElement('button'));
 document.querySelector("button").addEventListener("click", function() {
 
     let key = document.querySelector("textarea").value;
+    let splited = key.split("\n")
+    console.log(splited);
+
 })
