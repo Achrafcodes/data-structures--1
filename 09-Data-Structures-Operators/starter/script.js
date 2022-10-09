@@ -31,11 +31,3 @@ const restaurant = {
     }
     //create a function thats take the name and make it capitalized 
 let newName = [];
-let capitalize = function(name) {
-    let names = name.split(' ');
-    for (const itemes of names) {
-        newName.push(itemes[0].toUpperCase() + itemes.slice(1))
-    }
-    console.log(newName.join(" "))
-}
-capitalize('hello is me ahchraf essoussy')
